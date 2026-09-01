@@ -269,8 +269,4 @@ P1 executa o primeiro tick e sua prioridade atual cai de 3 para 2. Quando P2 che
 
 P1 começa executando por possuir maior prioridade. Sua prioridade é reduzida em 1 a cada tick. Após quatro ticks executados, sua prioridade atual será 0; como P2 permanece Pronto com prioridade 1, P2 deverá receber a CPU.
 
-### 5.5 Término e entrega
 
-A simulação termina quando todos os processos tiverem sido finalizados e não houver processos Prontos, Bloqueados, Em Execução ou aguardando chegada.
-
-A especificação deverá ser entregue em **Markdown**, publicada no GitHub de cada integrante e utilizada como entrada para o Harness de geração de código. A implementação gerada deverá respeitar as regras definidas neste documento, sem decidir por conta própria aspectos fundamentais como linguagem, dependências, estados, escalonamento ou formato da entrada.
